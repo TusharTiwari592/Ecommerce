@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+}
+.product {
+    width: 300px;
+}
+.product img{
+    width: 90%;
+}
+.cart{
+    display: flex;
+    justify-content: space-between;
+
+}
